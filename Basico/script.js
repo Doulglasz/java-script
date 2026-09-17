@@ -44,3 +44,147 @@
     }else{
         console.log("Ficaremos em casa");
     }
+
+
+// exercicio 8
+    let usuario = "João";
+    let senha = "abcd";
+
+    if(usuario === "João" && senha === "abcd"){
+        console.log("Acesso permitido");
+    }else{
+        console.log("Acesso negado");
+    }
+
+
+// exercicio 9
+    let idadeAnos = 16;
+
+    if(idadeAnos >= 18){
+        console.log("Maior de idade");
+    }else{
+        console.log("Menor de idade");
+    }
+
+
+// exercicio 10
+    const frutas = ["maçã", "banana"];
+
+    frutas.push("laranja");
+    frutas.push("uva");
+
+    console.log(frutas);
+
+
+// exercicio 11
+    function testarVar(){
+        if(true){
+            var mensagem = "Variável criada dentro do if";
+            console.log(mensagem);
+        }
+        console.log(mensagem);
+    }
+
+    testarVar();
+
+
+// exercicio 12
+    let numero = 10;
+
+    console.log("Número fora do if:", numero);
+
+    if(true){
+        let numero = 20;
+        console.log("Número dentro do if:", numero);
+    }
+
+    console.log("Número fora do if novamente:", numero);
+
+
+// exercicio 13
+    const pessoa = {
+        nome: "Ana",
+        idades: 22
+    };
+
+    pessoa.idadeAnos = 23;
+
+    console.log(pessoa);
+
+
+// exercicio 14
+    let logado = true;
+    let isAdmin = false;
+
+    if(logado && isAdmin){
+        console.log("Bem-vindo, administrador!");
+    }else{
+        console.log("Acesso restrito.");
+    }
+
+
+// exercicio 15
+    let promocao = false;
+    let cupom = true;
+
+    if(promocao || cupom){
+        console.log("Desconto aplicado!");
+    }else{
+        console.log("Preço normal.");
+    }
+
+
+// exercicio 16
+    let carrinhoVazio = true;
+
+    if(!carrinhoVazio){
+        console.log("Você tem itens no carrinho!");
+    }else{
+        console.log("Carrinho vazio, adicione produtos.");
+    }
+
+
+// exercicio 17
+    let user = "Carlos";
+    let palavraChave = "1234";
+    let block = false;
+
+    if(user === "Carlos" && palavraChave === "1234" && !block){
+        console.log("Login autorizado!");
+    }else{
+        console.log("Login negado.");
+    }
+
+
+// exercicio 18
+    const fruta = ["maçã", "banana"];
+
+    fruta.push("uva");
+    fruta.push("laranja");
+
+    console.log(fruta);
+
+
+// exercicio 19
+    let idade1 = 18;
+
+    console.log("Idade fora do if:", idade1);
+
+    if(true){
+        let idade1 = 25;
+        console.log("Idade dentro do if:", idade1);
+    }
+
+    console.log("Idade fora do if novamente:", idade1);
+
+
+// exercicio 20
+    let usuario1 = "Maria";
+    let senha1 = "abcd";
+    let bloqueado = true;
+
+    if(((usuario1 === "Maria" && senha1 === "abcd") || usuario1 === "admin") && !bloqueado){
+        console.log("Acesso liberado");
+    }else{
+        console.log("Acesso negado");
+    }
